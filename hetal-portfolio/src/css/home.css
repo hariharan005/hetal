@@ -1,3 +1,9 @@
-p{
+.profile-container{
+    position: relative;
+    background-color: red;
+    top: 50px;
+
+}
+article{
     color: black;
 }

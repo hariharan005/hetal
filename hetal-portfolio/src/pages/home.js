@@ -9,7 +9,7 @@ const HomePage = () => {
   return (
     <>
       <Header />
-      <Container fluid>
+      <Container className="profile-container">
         <div className="profile">
           <h1>Hi I'm Hetal</h1>
           <h3>Psycologist</h3>
