@@ -1,9 +1,48 @@
 .profile-container{
     position: relative;
-    background-color: red;
+    /* background-color: #E2ECF7; */
+    background: linear-gradient(90deg, rgba(226,236,247,1) 50%, rgba(255,255,255,1) 100%); 
     top: 50px;
-
+    height: 100%;
+    width: 100%;
+    align-items: center;
 }
-article{
-    color: black;
+.bio{
+    position: relative;
+    font-family: "poppins", Helvetica, sans-serif;
+    display: inline-block;
+}
+.bio h1{
+    position: relative;
+    color: #000000;
+    font-size: 96px;
+    font-weight: bold;
+    float: left;
+    top: 100px;
+}
+.bio h1 span{
+    color: #E6017F;
+}
+.bio h3{
+    position: relative;
+    color: #000000;
+    font-size: 48px;
+    font-weight: bold;
+    float: left;
+    right: 515px;
+    top: 200px;
+}
+.bio article{
+    position: absolute;
+    color: #8797A8;
+    justify-content: left;
+    text-align: left;
+    font-size: 20px;
+    font-family: "Georama", sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    top: 260px;
+    float: left;
+    left: 5px;
+    width: 60%;
 }

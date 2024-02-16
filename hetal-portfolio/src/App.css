@@ -1,14 +1,8 @@
 .App {
   text-align: center;
 }
-.body {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  height: 100vh;
-}
-
 .App-header {
+  position: relative;
   background-color: #e2ecf7;
   min-height: 100vh;
   display: flex;
@@ -17,4 +11,5 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  overflow-x: hidden;
 }
