@@ -26,6 +26,11 @@ function App() {
     }
   }, [loading]);
 
+  useEffect(() => {
+    // Set the title when the component mounts
+    document.title = 'Home';
+  }, []);
+
   return (
     <div className="App">
       <header className="App-header">
