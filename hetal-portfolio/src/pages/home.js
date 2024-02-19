@@ -25,8 +25,10 @@ const HomePage = () => {
           <div className="profile-img">
             <img src={profileImage} alt="Profile" title="Hetal"></img>
           </div>
-          <button>Know More</button>
-          <button>Download</button>
+          <div className="buttons">
+            <a href="/about" className="knw-button" onclick="window.location.href = 'https://ide.geeksforgeeks.org'">Know More</a>
+            <a href="/about" className="dnw-button">Download</a>
+          </div>
         </div>
       </section>
     </>
