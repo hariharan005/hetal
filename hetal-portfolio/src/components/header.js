@@ -27,7 +27,6 @@ function OffcanvasExample() {
         >
           <Offcanvas.Header closeButton>
             <Offcanvas.Title id="offcanvasNavbarLabel">
-              Offcanvas
             </Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
