@@ -3,6 +3,7 @@ import "../css/home.css";
 import Header from "../components/header";
 //import Footer from "../components/footer";
 import profileImage from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -26,8 +27,12 @@ const HomePage = () => {
             <img src={profileImage} alt="Profile" title="Hetal"></img>
           </div>
           <div className="buttons">
-            <a href="/about" className="knw-button" onclick="window.location.href = 'https://ide.geeksforgeeks.org'">Know More</a>
-            <a href="/about" className="dnw-button">Download</a>
+            <Link to="/about" className="knw-button">
+              Know More
+            </Link>
+            <Link to={profileImage} download="profile" className="dnw-button">
+              Download
+            </Link>
           </div>
         </div>
       </section>

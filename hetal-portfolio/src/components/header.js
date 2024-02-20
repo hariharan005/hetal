@@ -3,6 +3,7 @@ import { Container, Nav, Navbar, Offcanvas, Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import logoImage from '../assets/logo.png'
 import "../css/header.css";
+import { Link } from "react-router-dom";
 
 function OffcanvasExample() {
   return (
@@ -30,14 +31,14 @@ function OffcanvasExample() {
             </Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
-            <Nav className="justify-content-end flex-grow-1 pe-3">
-              <Nav.Link className="navlink" href="/">Home</Nav.Link>
-              <Nav.Link className="navlink" href="/">About</Nav.Link>
-              <Nav.Link className="navlink" href="/">Experience</Nav.Link>
-              <Nav.Link className="navlink" href="/">Skills</Nav.Link>
-              <Nav.Link className="navlink" href="/">Blogs</Nav.Link>
-              <Nav.Link className="navlink" href="/">Contact</Nav.Link>
-            </Nav>
+            <nav className="justify-content-end flex-grow-1 pe-3">
+              <Link className="navlink" to="/">Home</Link>
+              <Link className="navlink" to="/about">About</Link>
+              <Link className="navlink" to="/experience">Experience</Link>
+              <Link className="navlink" to="/skills">Skills</Link>
+              <Link className="navlink" to="/blogs">Blogs</Link>
+              <Link className="navlink" to="/contact">Contact</Link>
+            </nav>
           </Offcanvas.Body>
         </Navbar.Offcanvas>
       </Container>
