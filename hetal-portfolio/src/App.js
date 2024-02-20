@@ -1,8 +1,12 @@
 import "./App.css";
 import React, { useEffect } from "react";
-import Loader from "./components/loader";
-import Home from "./pages/home";
-import About from "./pages/about";
+//import Loader from "./components/loader";
+import Home from "./components/home";
+import About from "./components/about";
+import Experience from "./components/experience";
+import Skills from "./components/skills";
+import Blogs from "./components/blogs";
+import Contact from "./components/contact"
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -17,6 +21,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
+          <Route path="experience" element={<Experience />} />
+          <Route path="skills" element={<Skills />} />
+          <Route path="blogs" element={<Blogs />} />
+          <Route path="contact" element={<Contact />} />
         </Routes>
       </header>
     </div>

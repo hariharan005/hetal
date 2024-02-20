@@ -1,0 +1,91 @@
+.about {
+  position: relative;
+  top: 70px;
+  height: auto;
+  width: 1400px;
+}
+.about h3 {
+  color: #e6017f;
+}
+.profile1 {
+  position: relative;
+  height: 399px;
+  width: 526px;
+  top: -340px;
+  left: 100px;
+  background: linear-gradient(128.07deg, #e2ecf7 36.88%, #ffffff 64%);
+  box-shadow: -10px -50px 80px #ffffff;
+  border-radius: 5px;
+}
+.profile1 img {
+  position: relative;
+  height: 589px;
+  width: 635px;
+  top: -160px;
+  right: 50px;
+  transform: scaleX(-1);
+}
+.profile1 .round1 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 10px;
+  top: -120px;
+  border-radius: 50%;
+  background: linear-gradient(144.24deg, #8797a8 6.09%, #ffffff 94.38%);
+  box-shadow: 5px 5px 10px #8797a8;
+  transform: rotate(144.25deg);
+}
+.profile1 .round2-blur {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 1050px;
+  top: 400px;
+  border-radius: 50%;
+  background: linear-gradient(144.24deg, #8797a8 6.09%, #ffffff 94.38%);
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  filter: blur(5px);
+  transform: rotate(144.25deg);
+}
+.profile1 .round3space {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  left: 450px;
+  top: -70px;
+  border-radius: 50%;
+  border: 20px solid;
+  box-shadow: 5px 5px 10px #8797a8;
+  filter: drop-shadow(5px 5px 10px #8797a8);
+}
+.profile1 .round40ffspace {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  left: -270px;
+  bottom: -170px;
+  border-radius: 50%;
+  border: 20px solid;
+  box-shadow: 5px 5px 10px #8797a8;
+  filter: drop-shadow(5px 5px 10px #8797a8);
+}
+.bioabout1 {
+  position: relative;
+  width: 500px;
+  left: 700px;
+  top: 50px;
+}
+.bioabout1 h1 {
+  color: black;
+}
+.bioabout1 h2 {
+  color: #e6017f;
+}
+article p {
+  color: #8797a8;
+  font-size: 18px;
+  text-align: justify;
+  font-family: "georama", sans-serif;
+}

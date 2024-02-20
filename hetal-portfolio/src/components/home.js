@@ -1,15 +1,31 @@
 import React from "react";
 import "../css/home.css";
 import Header from "../components/header";
+import About from "../components/about";
+import Experience from "../components/experience";
+import Skills from "../components/skills";
+import Blogs from "../components/blogs";
+import Contact from "../components/contact";
 //import Footer from "../components/footer";
 import profileImage from "../assets/logo.png";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const HomePage = () => {
+  useEffect(() => {
+    AOS.init({
+        offset: 200,
+        duration: 600,
+        easing: 'ease-in-sine',
+        delay: 100,
+    });
+  }, []);
   return (
     <>
       <Header />
-      <section className="profile-container">
+      <section data-aos="fade-in" className="profile-container">
         <div className="profile">
           <div className="bio">
             <h1>
@@ -27,7 +43,7 @@ const HomePage = () => {
             <img src={profileImage} alt="Profile" title="Hetal"></img>
           </div>
           <div className="buttons">
-            <Link to="/about" className="knw-button">
+            <Link to="#about" className="knw-button">
               Know More
             </Link>
             <Link to={profileImage} download="profile" className="dnw-button">
@@ -36,6 +52,11 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+        <About id="about"></About>
+        <Experience></Experience>
+        <Skills></Skills>
+        <Blogs></Blogs>
+        <Contact></Contact>
     </>
   );
 };

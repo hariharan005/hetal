@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Nav, Navbar, Offcanvas, Image } from "react-bootstrap";
+import { Container, Navbar, Offcanvas, Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import logoImage from '../assets/logo.png'
 import "../css/header.css";
