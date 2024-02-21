@@ -2,10 +2,11 @@
   position: relative;
   /* background-color: #E2ECF7; */
   /* background: linear-gradient(90deg, rgba(226,236,247,1) 50%, rgba(255,255,255,1) 100%);  */
-  top: 100px;
-  height: 100%;
-  width: 100%;
+  top: 150px;
+  height: 600px;
+  width: 1400px;
   align-items: center;
+  scroll-behavior: smooth;
 }
 .bio {
   position: relative;

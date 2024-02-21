@@ -8,10 +8,11 @@ import Blogs from "../components/blogs";
 import Contact from "../components/contact";
 //import Footer from "../components/footer";
 import profileImage from "../assets/logo.png";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 const HomePage = () => {
   useEffect(() => {
@@ -21,6 +22,10 @@ const HomePage = () => {
         easing: 'ease-in-sine',
         delay: 100,
     });
+  }, []);
+
+  useEffect(() => {
+    scroll.scrollToTop();
   }, []);
   return (
     <>
@@ -43,7 +48,7 @@ const HomePage = () => {
             <img src={profileImage} alt="Profile" title="Hetal"></img>
           </div>
           <div className="buttons">
-            <Link to="#about" className="knw-button">
+            <Link to="testing" smooth={true} duration={500} className="knw-button">
               Know More
             </Link>
             <Link to={profileImage} download="profile" className="dnw-button">

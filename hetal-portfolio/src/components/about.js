@@ -15,7 +15,7 @@ export default function About() {
       }, []);
   return (
     <>
-      <section className="about">
+      <section className="about" id="testing"> 
         <h3 data-aos="fade-up">About Me</h3>
         <div className="bioabout1" data-aos="fade-up">
           <h1>20 Years Experience on</h1>
