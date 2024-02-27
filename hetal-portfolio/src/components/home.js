@@ -7,7 +7,7 @@ import Skills from "../components/skills";
 import Blogs from "../components/blogs";
 import Contact from "../components/contact";
 //import Footer from "../components/footer";
-import profileImage from "../assets/logo.png";
+//import profileImage from "../assets/2.png";
 //import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import AOS from 'aos';
@@ -21,12 +21,15 @@ const HomePage = () => {
         duration: 600,
         easing: 'ease-in-sine',
         delay: 100,
+        once: true,
     });
   }, []);
 
   useEffect(() => {
+    // Scroll to the top of the page when the component mounts
     scroll.scrollToTop();
   }, []);
+
   return (
     <>
       <Header />
@@ -45,21 +48,22 @@ const HomePage = () => {
             </article>
           </div>
           <div className="profile-img">
-            <img src={profileImage} alt="Profile" title="Hetal"></img>
+            {/* <img src={profileImage} alt="Profile" title="Hetal"></img> */}
           </div>
           <div className="buttons">
-            <Link to="testing" smooth={true} duration={500} className="knw-button">
+            <Link to="about" smooth={true} duration={500} className="knw-button">
               Know More
             </Link>
-            <Link to={profileImage} download="profile" className="dnw-button">
+            {/* <Link to={profileImage} download="profile" className="dnw-button">
               Download
-            </Link>
+            </Link> */}
           </div>
         </div>
       </section>
         <About id="about"></About>
-        <Experience></Experience>
+        {/* <Whatido></Whatido> */}
         <Skills></Skills>
+        <Experience></Experience>
         <Blogs></Blogs>
         <Contact></Contact>
     </>

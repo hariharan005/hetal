@@ -10,12 +10,12 @@ export default function About() {
             offset: 200,
             duration: 600,
             easing: 'ease-in-sine',
-            delay: 100,
+            delay: 1000,
         });
       }, []);
   return (
     <>
-      <section className="about" id="testing"> 
+      <section className="about" id="about" data-aos="fade-up"> 
         <h3 data-aos="fade-up">About Me</h3>
         <div className="bioabout1" data-aos="fade-up">
           <h1>20 Years Experience on</h1>
