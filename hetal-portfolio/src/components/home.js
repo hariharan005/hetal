@@ -7,7 +7,7 @@ import Skills from "../components/skills";
 import Blogs from "../components/blogs";
 import Contact from "../components/contact";
 //import Footer from "../components/footer";
-//import profileImage from "../assets/2.png";
+import profileImage from "../assets/2.png";
 //import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import AOS from 'aos';
@@ -47,16 +47,16 @@ const HomePage = () => {
               development.
             </article>
           </div>
-          <div className="profile-img">
-            {/* <img src={profileImage} alt="Profile" title="Hetal"></img> */}
+          <div id="profile-img">
+            <img src={profileImage} alt="Profile" title="Hetal"></img>
           </div>
           <div className="buttons">
             <Link to="about" smooth={true} duration={500} className="knw-button">
               Know More
             </Link>
-            {/* <Link to={profileImage} download="profile" className="dnw-button">
+            <Link to={profileImage} download="profile" className="dnw-button">
               Download
-            </Link> */}
+            </Link>
           </div>
         </div>
       </section>
