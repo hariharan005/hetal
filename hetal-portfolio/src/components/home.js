@@ -3,6 +3,7 @@ import "../css/home.css";
 import Header from "../components/header";
 import About from "../components/about";
 import Experience from "../components/experience";
+import Education from "../components/education";
 import Skills from "../components/skills";
 import Blogs from "../components/blogs";
 import Contact from "../components/contact";
@@ -63,6 +64,7 @@ const HomePage = () => {
         <About id="about"></About>
         {/* <Whatido></Whatido> */}
         <Skills></Skills>
+        <Education></Education>
         <Experience></Experience>
         <Blogs></Blogs>
         <Contact></Contact>
