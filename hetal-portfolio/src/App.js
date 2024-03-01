@@ -4,6 +4,7 @@ import React, { useEffect } from "react";
 import Home from "./components/home";
 import About from "./components/about";
 import Experience from "./components/experience";
+import Education from "./components/education";
 import Skills from "./components/skills";
 import Blogs from "./components/blogs";
 import Contact from "./components/contact"
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="experience" element={<Experience />} />
+          <Route path="education" element={<Education />} />
           <Route path="skills" element={<Skills />} />
           <Route path="blogs" element={<Blogs />} />
           <Route path="contact" element={<Contact />} />

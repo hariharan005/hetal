@@ -1,21 +1,22 @@
 import "../css/about.css";
 import Profile from "../assets/logo.png";
 import React, { useEffect } from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 //import { Link } from "react-router-dom";
+
 export default function About() {
-    useEffect(() => {
-        AOS.init({
-            offset: 200,
-            duration: 600,
-            easing: 'ease-in-sine',
-            delay: 1000,
-        });
-      }, []);
+  useEffect(() => {
+    AOS.init({
+      offset: 200,
+      duration: 600,
+      easing: "ease-in-sine",
+      delay: 1000,
+    });
+  }, []);
   return (
     <>
-      <section className="about" id="about" data-aos="fade-up"> 
+      <section className="about" id="about" data-aos="fade-up">
         <h3 data-aos="fade-up">About Me</h3>
         <div className="bioabout1" data-aos="fade-up">
           <h1>20 Years Experience on</h1>
@@ -36,10 +37,10 @@ export default function About() {
           </article>
         </div>
         <div className="profile1" data-aos="fade-up">
-            <div className="round1"></div>
-            <div className="round2-blur"></div>
-            <div className="round3space"></div>
-            <div className="round40ffspace"></div>
+          <div className="round1"></div>
+          <div className="round2-blur"></div>
+          <div className="round3space"></div>
+          <div className="round40ffspace"></div>
           <img src={Profile} alt="profile" title="Hetal"></img>
         </div>
       </section>
