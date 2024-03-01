@@ -2,7 +2,7 @@ import "../css/contact.css";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Contactpic from "../assets/logo.png"
+import Contactpic from "../assets/logo.png";
 //import { Link } from "react-router-dom";
 export default function Contact() {
   useEffect(() => {
@@ -16,8 +16,10 @@ export default function Contact() {
   return (
     <>
       <section className="contact" data-aos="fade-up">
-        <h5>Contact Me</h5>
-        <h2>Get in Touch With Me</h2>
+        <div className="conlabel">
+          <h5>Contact Me</h5>
+          <h2>Get in Touch With Me</h2>
+        </div>
         <div className="formdiv">
           <form>
             <div className="form-group">
@@ -49,11 +51,11 @@ export default function Contact() {
           </form>
         </div>
         <div className="contactdiv">
-            <img alt="contactimage" src={Contactpic}/>
-            <div className="contactme">
-                <label>+91 9790755231</label>
-                <label>hetal.k@gmail.com</label>
-            </div>
+          <img alt="contactimage" src={Contactpic} />
+          <div className="contactme">
+            <label>+91 9790755231</label>
+            <label>hetal.k@gmail.com</label>
+          </div>
         </div>
       </section>
     </>

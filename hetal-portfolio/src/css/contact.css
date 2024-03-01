@@ -1,6 +1,13 @@
+.conlabel{
+  position: relative;
+  text-align: left;
+  margin: 20px;
+  right: 15rem;
+}
 .formdiv {
   position: relative;
-  background: red;
+  background: linear-gradient(132.22deg, #E2ECF7 15.54%, #FFFFFF 97.17%);
+  filter: drop-shadow(10px 10px 60px #9CA8BA);
   height: 500px;
   width: 450px;
   border-radius: 20px;
@@ -8,7 +15,8 @@
 }
 .contactdiv {
   position: relative;
-  background: red;
+  background: linear-gradient(132.22deg, #E2ECF7 15.54%, #FFFFFF 97.17%);
+  filter: drop-shadow(10px 10px 60px #9CA8BA);
   height: 500px;
   width: 450px;
   border-radius: 20px;

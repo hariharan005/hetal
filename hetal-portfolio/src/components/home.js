@@ -66,8 +66,8 @@ const HomePage = () => {
         <Skills></Skills>
         <Education></Education>
         <Experience></Experience>
-        <Blogs></Blogs>
         <Contact></Contact>
+        <Blogs></Blogs>
     </>
   );
 };
