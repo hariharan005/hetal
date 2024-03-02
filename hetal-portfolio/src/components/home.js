@@ -7,6 +7,7 @@ import Education from "../components/education";
 import Skills from "../components/skills";
 import Blogs from "../components/blogs";
 import Contact from "../components/contact";
+import Footer from "../components/footer";
 //import Footer from "../components/footer";
 import profileImage from "../assets/2.png";
 //import { Link } from "react-router-dom";
@@ -68,6 +69,7 @@ const HomePage = () => {
         <Experience></Experience>
         <Contact></Contact>
         <Blogs></Blogs>
+        <Footer></Footer>
     </>
   );
 };

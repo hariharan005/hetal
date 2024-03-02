@@ -1,6 +1,15 @@
+.contact {
+  position: relative;
+  top: 350px;
+  height: 800px;
+  width: 1400px;
+  background-color: red;
+  justify-content: center;
+}
 .conlabel{
   position: relative;
   text-align: left;
+  left: 9rem;
   margin: 20px;
   right: 15rem;
 }
@@ -11,7 +20,7 @@
   height: 500px;
   width: 450px;
   border-radius: 20px;
-  right: 15rem;
+  left: 10rem;
 }
 .contactdiv {
   position: relative;
@@ -20,7 +29,7 @@
   height: 500px;
   width: 450px;
   border-radius: 20px;
-  left: 20rem;
+  left: 47rem;
   bottom: 31.3rem;
 }
 .contactdiv img{

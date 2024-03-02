@@ -1,3 +1,10 @@
+.blogs {
+  position: relative;
+  top: 400px;
+  height: auto;
+  width: 1400px;
+  background-color: green;
+}
 .blogs h3{
     color: #E6017F;
 }

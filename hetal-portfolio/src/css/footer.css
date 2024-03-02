@@ -1,0 +1,11 @@
+.footer {
+  position: relative;
+  top: 500px;
+  height: 300px;
+  width: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(135, 151, 168, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
