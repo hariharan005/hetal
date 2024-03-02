@@ -3,9 +3,91 @@
   top: 500px;
   height: 300px;
   width: 100%;
-  background: linear-gradient(
-    0deg,
-    rgba(135, 151, 168, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background: linear-gradient(0deg, rgba(226,236,247,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.socialicon {
+  position: absolute;
+  width: 400px;
+  left: 60rem;
+  top: 50px;
+}
+.socialicon h3 {
+  color: #e6017f;
+}
+.socialicon .icon {
+  padding: 10px;
+  margin: 10px;
+}
+.horizontal {
+  position: relative;
+  background-color: black;
+  opacity: 0.3;
+  height: 2px;
+  width: 70%;
+  top: 150px;
+  left: 250px;
+}
+
+.round1 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: -30px;
+  top: 40px;
+  border-radius: 50%;
+  background: linear-gradient(144.24deg, #8797a8 6.09%, #ffffff 94.38%);
+  box-shadow: 5px 5px 10px #8797a8;
+  transform: rotate(144.25deg);
+}
+
+.round2-blur {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 70px;
+  top: 200px;
+  border-radius: 50%;
+  background: linear-gradient(144.24deg, #8797a8 6.09%, #ffffff 94.38%);
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  filter: blur(5px);
+  transform: rotate(144.25deg);
+}
+.round3space {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  left: -70px;
+  top: 110px;
+  border-radius: 50%;
+  border: 20px solid;
+  box-shadow: 5px 5px 10px #8797a8;
+  filter: drop-shadow(5px 5px 10px #8797a8);
+}
+.round40ffspace {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  right: -60px;
+  bottom: 0px;
+  border-radius: 50%;
+  border: 20px solid;
+  box-shadow: 5px 5px 10px #8797a8;
+  filter: drop-shadow(5px 5px 10px #8797a8);
+}
+
+.rights {
+  position: absolute;
+  left: 38.89%;
+  right: 38.82%;
+  top: 85%;
+  bottom: 5.21%;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  color: #9ca8ba;
 }
