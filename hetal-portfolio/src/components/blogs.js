@@ -1,5 +1,5 @@
 import "../css/blogs.css";
-import Blog1 from "../assets/blog.jpg";
+//import Blog1 from "../assets/blog.jpg";
 //import { Link } from "react-router-dom";
 import React, { useEffect } from "react";
 import AOS from "aos";

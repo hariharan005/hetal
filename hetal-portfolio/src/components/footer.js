@@ -11,10 +11,10 @@ export default function About() {
         </div>
         <div className="socialicon">
           <h3>Connect with Me</h3>
-          <SocialIcon className="icon" network="facebook"></SocialIcon>
-          <SocialIcon className="icon" network="instagram"></SocialIcon>
-          <SocialIcon className="icon" network="twitter"></SocialIcon>
-          <SocialIcon className="icon" network="email"></SocialIcon>
+          <SocialIcon className="icon" url="https://facebook.com" network="facebook" target="_blank"></SocialIcon>
+          <SocialIcon className="icon" url="https://instagram.com" network="instagram" target="_blank"></SocialIcon>
+          <SocialIcon className="icon" url="https://twitter.com" network="twitter" target="_blank"></SocialIcon>
+          <SocialIcon className="icon" url="https://mail.google.com" network="email" target="_blank"></SocialIcon>
         </div>
         <div className="horizontal"></div>
         <div className="round1"></div>
