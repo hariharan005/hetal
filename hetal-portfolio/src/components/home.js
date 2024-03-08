@@ -9,12 +9,12 @@ import Blogs from "../components/blogs";
 import Contact from "../components/contact";
 import Footer from "../components/footer";
 //import Footer from "../components/footer";
-import profileImage from "../assets/2.png";
-//import { Link } from "react-router-dom";
+import profileImage from "../assets/final.jpg";
+import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { animateScroll as scroll } from 'react-scroll';
 
 const HomePage = () => {
   useEffect(() => {
@@ -49,15 +49,15 @@ const HomePage = () => {
               development.
             </article>
           </div>
-          <div id="profile-img">
+          <div className="profile-img">
             <img src={profileImage} alt="Profile" title="Hetal"></img>
           </div>
           <div className="buttons">
             <Link to="about" smooth={true} duration={500} className="knw-button">
               Know More
             </Link>
-            <Link to={profileImage} download="profile" className="dnw-button">
-              Download
+            <Link to="schedule" download="profile" className="dnw-button">
+            Schedule Counseling
             </Link>
           </div>
         </div>

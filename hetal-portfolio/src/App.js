@@ -8,6 +8,7 @@ import Education from "./components/education";
 import Skills from "./components/skills";
 import Blogs from "./components/blogs";
 import Contact from "./components/contact"
+import Schedule from "./components/schedule"
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path="skills" element={<Skills />} />
           <Route path="blogs" element={<Blogs />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="schedule" element={<Schedule />} />
         </Routes>
       </header>
     </div>
