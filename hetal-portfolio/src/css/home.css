@@ -92,18 +92,16 @@
   position: relative;
   transform: scale(3);
 } */
-
 .profile-img img{
   position: relative;
   border-radius: 16px;
   filter: drop-shadow(10px 10px 20px 0px #3c3939);
-  height: 25rem;
-  width: 20rem;
+  height: 30rem;
+  width: 25rem;
   top: 0px;
   left: 320px;
-  object-fit: fill;
   background-color: #e2ecf7;
-  transform: scale(1.5);
+  object-fit: cover;
 }
 
 .buttons {

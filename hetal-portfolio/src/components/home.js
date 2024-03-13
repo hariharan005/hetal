@@ -9,7 +9,7 @@ import Blogs from "../components/blogs";
 import Contact from "../components/contact";
 import Footer from "../components/footer";
 //import Footer from "../components/footer";
-import profileImage from "../assets/final.jpg";
+import profileImage from "../assets/2.jpg";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import AOS from 'aos';
