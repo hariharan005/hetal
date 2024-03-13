@@ -2,11 +2,11 @@
   position: relative;
   /* background-color: #E2ECF7; */
   /* background: linear-gradient(90deg, rgba(226,236,247,1) 50%, rgba(255,255,255,1) 100%);  */
-  top: 150px;
-  height: 600px;
-  width: 1400px;
+  top: 70px;
+  height: 740px;
+  width: 1800px;
   align-items: center;
-  scroll-behavior: smooth;
+  background-color: red;
 }
 .bio {
   position: relative;
@@ -109,8 +109,8 @@
   font-size: 18px;
   font-family: "Georama", sans-serif;
   width: 400px;
-  top: 10px;
-  left: 190px;
+  top: -40px;
+  left: 390px;
 }
 .knw-button {
   text-decoration: none;

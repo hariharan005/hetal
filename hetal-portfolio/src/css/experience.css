@@ -1,9 +1,9 @@
 .experience {
     position: relative;
-    top: 300px;
+    top: 76px;
     height: 500px;
     width: 1400px;
-    /* background-color: yellow; */
+    background-color: yellow;
   }
   .experience h3 {
     color: #e6017f;

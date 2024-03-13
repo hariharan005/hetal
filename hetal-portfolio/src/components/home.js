@@ -19,11 +19,11 @@ import { animateScroll as scroll } from 'react-scroll';
 const HomePage = () => {
   useEffect(() => {
     AOS.init({
-        offset: 200,
+        offset: 100,
         duration: 600,
         easing: 'ease-in-sine',
         delay: 100,
-        once: true,
+        once: false,
     });
   }, []);
 

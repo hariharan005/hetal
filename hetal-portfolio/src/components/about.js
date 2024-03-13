@@ -12,13 +12,14 @@ export default function About() {
       duration: 600,
       easing: "ease-in-sine",
       delay: 1000,
+      once: false,
     });
   }, []);
   return (
     <>
       <section className="about" id="about" data-aos="fade-up">
         <h3 data-aos="fade-up">About Me</h3>
-        <div className="bioabout1" data-aos="fade-up">
+        <div className="bioabout1">
           <h1>20 Years Experience on</h1>
           <h2>Junior Faculty</h2>
           <article>
@@ -36,7 +37,7 @@ export default function About() {
             </p>
           </article>
         </div>
-        <div className="profile1" data-aos="fade-up">
+        <div className="profile1">
           <div className="round1"></div>
           <div className="round2-blur"></div>
           <div className="round3space"></div>

@@ -10,6 +10,7 @@ export default function About() {
       duration: 600,
       easing: "ease-in-sine",
       delay: 1000,
+      once: false,
     });
   }, []);
   return (

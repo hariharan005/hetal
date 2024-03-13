@@ -7,10 +7,11 @@ import "aos/dist/aos.css";
 export default function Education() {
   useEffect(() => {
     AOS.init({
-      offset: 200,
+      offset: 300,
       duration: 600,
       easing: "ease-in-sine",
       delay: 1000,
+      once: false,
     });
   }, []);
   return (
