@@ -3,7 +3,7 @@
     top: 76px;
     height: 500px;
     width: 1400px;
-    background-color: yellow;
+    /* background-color: yellow; */
   }
   .experience h3 {
     color: #e6017f;
@@ -28,7 +28,7 @@
     height: 10px;
     background-color: white;
     border-radius: 50%;
-    margin: 15px 0;
+    margin: 15px;
   }
   
   .two-column-layout1 {

@@ -3,9 +3,11 @@
   top: 73px;
   height: 700px;
   width: 1400px;
-  background-color: green;
+  /* background-color: green; */
 }
 .education h3 {
+  position: relative;
+  top: 50px;
   color: #e6017f;
 }
 .education div .year {
@@ -58,6 +60,19 @@
   bottom: 575px;
 }
 
+.eduscope{
+  position: relative;
+  color: #8797a8;
+  /* background-color: red; */
+  font-size: 18px;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  top: -550px;
+  left: 300px;
+  height: 300px;
+  width: 800px;
+}
+
 .education .horizontal{
     position: relative;
     background-color: #9CA8BA;
@@ -71,6 +86,6 @@
     background-color: #9CA8BA;
     height: 3px;
     width: 70%;
-    bottom: 17.2rem;
+    bottom: 35.9rem;
     left: 16.3rem;
 }

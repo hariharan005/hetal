@@ -10,6 +10,7 @@ import Contact from "../components/contact";
 import Footer from "../components/footer";
 //import Footer from "../components/footer";
 import profileImage from "../assets/2.jpg";
+import Msme from "../assets/msme.webp"
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import AOS from 'aos';
@@ -59,6 +60,9 @@ const HomePage = () => {
             <Link to="schedule" download="profile" className="dnw-button">
             Schedule Counseling
             </Link>
+            <a href={Msme} download="profile" className="dnw-button">
+            UDYAM-XX-00-0000000
+            </a>
           </div>
         </div>
       </section>
