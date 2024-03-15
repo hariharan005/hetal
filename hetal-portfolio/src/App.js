@@ -9,6 +9,7 @@ import Skills from "./components/skills";
 import Blogs from "./components/blogs";
 import Contact from "./components/contact"
 import Schedule from "./components/schedule"
+import Testapi from "./components/testapi"
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           <Route path="blogs" element={<Blogs />} />
           <Route path="contact" element={<Contact />} />
           <Route path="schedule" element={<Schedule />} />
+          <Route path="testapi" element={<Testapi />} />
         </Routes>
       </header>
     </div>
