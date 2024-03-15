@@ -1,8 +1,12 @@
 import "../css/contact.css";
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Contactpic from "../assets/contact.jpg";
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 export default function Contact() {
   useEffect(() => {
     AOS.init({
@@ -13,15 +17,37 @@ export default function Contact() {
       once: false,
     });
   }, []);
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_e6kidl8", "template_7ggnhf5", form.current, {
+        publicKey: "Za-uWbtzvATfxymfb",
+      })
+      .then(
+        () => {
+          toast.success("Email sent successfully");
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          toast.success("Failed to sent successfully");
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
   return (
     <>
+    <ToastContainer />
       <section className="contact" data-aos="fade-up">
         <div className="conlabel">
           <h5>Contact Me</h5>
           <h2>Get in Touch With Me</h2>
         </div>
         <div className="formdiv">
-          <form>
+          <form ref={form} onSubmit={sendEmail}>
             <div className="form-group">
               <label htmlFor="firstName">
                 First Name:<sup>*</sup>
@@ -56,7 +82,7 @@ export default function Contact() {
                 placeholder="Email"
                 type="email"
                 id="email"
-                name="email"
+                name="emailId"
                 required="required"
               />
             </div>
