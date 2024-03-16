@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 export default function Blogs() {
   useEffect(() => {
     AOS.init({
-      offset: 200,
+      offset: 350,
       duration: 600,
       easing: "ease-in-sine",
       delay: 1000,

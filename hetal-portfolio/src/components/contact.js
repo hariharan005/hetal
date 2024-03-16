@@ -11,7 +11,7 @@ import { FaPhone, FaEnvelope } from "react-icons/fa";
 export default function Contact() {
   useEffect(() => {
     AOS.init({
-      offset: 400,
+      offset: 200,
       duration: 600,
       easing: "ease-in-sine",
       delay: 1000,
