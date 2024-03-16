@@ -8,14 +8,13 @@ import Skills from "../components/skills";
 import Blogs from "../components/blogs";
 import Contact from "../components/contact";
 import Footer from "../components/footer";
-//import Footer from "../components/footer";
 import profileImage from "../assets/2.jpg";
 import Msme from "../assets/msme.webp"
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { animateScroll as scroll } from 'react-scroll';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 const HomePage = () => {
   useEffect(() => {
@@ -36,7 +35,7 @@ const HomePage = () => {
   return (
     <>
       <Header />
-      <section data-aos="fade-in" className="profile-container">
+      <section data-aos="fade-in" id="home" className="profile-container">
         <div className="profile">
           <div className="bio">
             <h1>

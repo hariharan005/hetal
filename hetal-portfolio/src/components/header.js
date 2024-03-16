@@ -3,9 +3,16 @@ import { Container, Navbar, Offcanvas, Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import logoImage from '../assets/logo.png'
 import "../css/header.css";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
+import { useEffect } from "react";
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 function OffcanvasExample() {
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    scroll.scrollToTop();
+  }, []);
+
   return (
     <Navbar expand="lg" fixed="top" fg="red" className="navbar">
       <Container fluid>
@@ -32,13 +39,13 @@ function OffcanvasExample() {
           </Offcanvas.Header>
           <Offcanvas.Body>
             <nav className="justify-content-end flex-grow-1 pe-3">
-              <Link className="navlink" to="/">Home</Link>
-              <Link className="navlink" to="/about">About</Link>
-              <Link className="navlink" to="/skills">Skills</Link>
-              <Link className="navlink" to="/education">Education</Link>
-              <Link className="navlink" to="/experience">Experience</Link>
-              <Link className="navlink" to="/blogs">Blogs</Link>
-              <Link className="navlink" to="/contact">Contact</Link>
+              <Link className="navlink" to="home">Home</Link>
+              <Link className="navlink" to="about" smooth={true} offset={-170} duration={500}>About</Link>
+              <Link className="navlink" to="skill" smooth={true} offset={-70} duration={500}>Skills</Link>
+              <Link className="navlink" to="education" smooth={true} offset={-170} duration={500}>Education</Link>
+              <Link className="navlink" to="experience" smooth={true} offset={-70} duration={500}>Experience</Link>
+              <Link className="navlink" to="contact" smooth={true} offset={-170} duration={500}>Contact</Link>
+              <Link className="navlink" to="blogs" smooth={true} offset={-70} duration={500}>Blogs</Link>
             </nav>
           </Offcanvas.Body>
         </Navbar.Offcanvas>
