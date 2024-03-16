@@ -1,31 +1,64 @@
 import "../css/experience.css";
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import "../css/verticaltimeline.css";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+import { FaBriefcase } from "react-icons/fa";
+
 //import { Link } from "react-router-dom";
+
+const WorkIcon = () => <FaBriefcase></FaBriefcase>;
+
 export default function About() {
-  useEffect(() => {
-    AOS.init({
-      offset: 300,
-      duration: 600,
-      easing: "ease-in-sine",
-      delay: 1000,
-      once: false,
-    });
-  }, []);
   return (
     <>
-      <section className="experience" data-aos="fade-up">
-        <h3>Experience</h3>
-        <div className="vertical-line1">
-          {[...Array(2)].map((_, index) => (
-            <div key={index} className="dot1"></div>
-          ))}
+      <section className="experience">
+        <div className="title">
+          <h3>Experience</h3>
         </div>
-        <div className="two-column-layout1">
-          <div>Junior Faculty</div>
-          <div>Deputy Manager - Reasearch Center</div>
-        </div>
+        <VerticalTimeline lineColor="#fc466b">
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{
+              background: "#ffffff",
+              color: "#08203A",
+              borderTop: "2px solid #fc466b",
+              borderRight: "2px solid #fc466b",
+            }}
+            contentArrowStyle={{ borderRight: "7px solid  #fc466b" }}
+            date="2011 - present"
+            iconStyle={{ background: "white", color: "#fc466b" }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">Junior Faculty</h3>
+            <h4 className="vertical-timeline-element-subtitle">GLIM</h4>
+            <p>
+              Creative Direction, User Experience, Visual Design, Project
+              Management, Team Leading
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{
+              background: "#ffffff",
+              color: "#08203A",
+              borderTop: "2px solid #fc466b", borderLeft: "2px solid #fc466b",
+            }}
+            contentArrowStyle={{ borderRight: "7px solid  #fc466b" }}
+            date="2011 - present"
+            iconStyle={{ background: "white", color: "#fc466b" }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">Junior Faculty</h3>
+            <h4 className="vertical-timeline-element-subtitle">GLIM</h4>
+            <p>
+              Creative Direction, User Experience, Visual Design, Project
+              Management, Team Leading
+            </p>
+          </VerticalTimelineElement>
+        </VerticalTimeline>
       </section>
     </>
   );

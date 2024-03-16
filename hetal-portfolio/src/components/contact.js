@@ -1,11 +1,12 @@
 import "../css/contact.css";
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Contactpic from "../assets/contact.jpg";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { FaPhone, FaEnvelope } from "react-icons/fa";
 
 export default function Contact() {
   useEffect(() => {
@@ -20,6 +21,15 @@ export default function Contact() {
 
   const form = useRef();
 
+  // State to hold form input values
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    emailId: "",
+    contactNumber: "",
+    message: "",
+  });
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -31,6 +41,14 @@ export default function Contact() {
         () => {
           toast.success("Email sent successfully");
           console.log("SUCCESS!");
+          // Clear form input values after successful submission
+          setFormData({
+            firstName: "",
+            lastName: "",
+            emailId: "",
+            contactNumber: "",
+            message: "",
+          });
         },
         (error) => {
           toast.success("Failed to sent successfully");
@@ -38,9 +56,19 @@ export default function Contact() {
         }
       );
   };
+
+  // Handler to update form input value
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevState) => ({
+      ...prevState,
+      [name]: value,
+    }));
+  };
+
   return (
     <>
-    <ToastContainer />
+      <ToastContainer />
       <section className="contact" data-aos="fade-up">
         <div className="conlabel">
           <h5>Contact Me</h5>
@@ -57,6 +85,8 @@ export default function Contact() {
                 type="text"
                 id="firstName"
                 name="firstName"
+                value={formData.firstName}
+                onChange={handleChange}
                 required="required"
               />
             </div>
@@ -70,6 +100,8 @@ export default function Contact() {
                 type="text"
                 id="lastName"
                 name="lastName"
+                value={formData.lastName}
+                onChange={handleChange}
                 required="required"
               />
             </div>
@@ -83,6 +115,8 @@ export default function Contact() {
                 type="email"
                 id="email"
                 name="emailId"
+                value={formData.emailId}
+                onChange={handleChange}
                 required="required"
               />
             </div>
@@ -96,6 +130,8 @@ export default function Contact() {
                 type="text"
                 id="contactNumber"
                 name="contactNumber"
+                value={formData.contactNumber}
+                onChange={handleChange}
                 required="required"
                 maxLength="10"
               />
@@ -109,6 +145,8 @@ export default function Contact() {
                 placeholder="Message"
                 id="message"
                 name="message"
+                value={formData.message}
+                onChange={handleChange}
                 required="required"
               ></textarea>
             </div>
@@ -119,9 +157,18 @@ export default function Contact() {
         <div className="contactdiv">
           <img alt="contactimage" src={Contactpic} />
           <div className="contactme">
-            <label>+91 9677723567</label>
-            <label>hetalpanday@gmail.com</label>
-            <label>hetalsuresh06@gmail.com</label>
+            <div className="faicon">
+              <FaPhone></FaPhone>
+              <label>+91&nbsp;9677723567</label>
+            </div>
+            <div className="faicon">
+              <FaEnvelope></FaEnvelope>
+              <label>hetalpanday@gmail.com</label>
+            </div>
+            <div className="faicon">
+              <FaEnvelope></FaEnvelope>
+              <label>hetalsuresh06@gmail.com</label>
+            </div>
           </div>
         </div>
       </section>

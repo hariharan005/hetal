@@ -63,13 +63,25 @@
   border-bottom-right-radius: 20px;
   top: 21.9rem;
 }
+.contactme .faicon{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  margin: 3px;
+  border-radius: 5px;
+  left: 20px;
+}
 .contactme label{
   font-size: 18px;
   position: relative;
   justify-content: right;
   text-align: justify;
-  left: 180px;
-  top: 35px;
+  left: 100px;
+  top: -40px;
 }
 
 input {
