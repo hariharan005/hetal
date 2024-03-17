@@ -53,7 +53,7 @@ const HomePage = () => {
             <img src={profileImage} alt="Profile" title="Hetal"></img>
           </div>
           <div className="buttons">
-            <Link to="about" smooth={true} duration={500} className="knw-button">
+            <Link to="about" smooth={true} duration={500} offset={-170} className="knw-button">
               Know More
             </Link>
             <Link to="schedule" download="profile" className="dnw-button">

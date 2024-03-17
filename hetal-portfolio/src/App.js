@@ -11,6 +11,7 @@ import Contact from "./components/contact"
 import Schedule from "./components/schedule"
 import Testapi from "./components/testapi"
 import Timeline from "./components/verticaltimeline"
+import Whatido from "./components/whatido"
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Route path="schedule" element={<Schedule />} />
           <Route path="testapi" element={<Testapi />} />
           <Route path="timeline" element={<Timeline />} />
+          <Route path="whatido" element={<Whatido />} />
         </Routes>
       </header>
     </div>
