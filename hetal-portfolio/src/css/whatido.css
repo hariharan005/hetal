@@ -50,15 +50,16 @@ body {
   object-fit: cover;
 }
 .mySwiper {
-  color: red;
+  color: #08203A;
+  font-size: 18px;
 }
 
 .slideitem {
   position: relative;
 }
-/* .slideitem img {
+.slideitem img {
   opacity: 0.5;
-} */
+}
 .slideitem h1 {
   position: absolute;
   top: 50%;

@@ -56,7 +56,7 @@ export default function Whatido() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="slideitem">
-            <h1 className="slidetitle">Humanistic Therapy</h1>
+            <h1 className="slidetitle">HumanisticTherapy</h1>
             <img src={Slide4} alt=""></img>
           </div>
         </SwiperSlide>

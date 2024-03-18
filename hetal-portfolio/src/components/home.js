@@ -81,7 +81,7 @@ const HomePage = () => {
       <Blogs></Blogs>
       <div className="bookschedule" data-aos="fade-up">
         <div className="booklabel">
-          <p>Book a Schedule for Counseling. Im available on Monday, Wednesday and Sunday</p>
+          <p>Book a Schedule for Counseling. Im available on Monday, Wednesday, and Sunday.</p>
         </div>
         <div className="schedulelink">
           <a href="schedule">Schedule</a>
