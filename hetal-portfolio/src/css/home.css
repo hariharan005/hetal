@@ -10,7 +10,7 @@
   height: 740px;
   width: 1800px;
   align-items: center;
-  background-color: red;
+  /* background-color: red; */
 }
 .bio {
   position: relative;
@@ -158,7 +158,7 @@
   align-items: center;
   text-align: center;
   position: relative;
-  top: 150px;
+  top: 200px;
   margin: 0 auto;
   width: 450px;
   white-space: nowrap;
@@ -180,7 +180,7 @@
 .bookschedule a {
   position: relative;
   text-decoration: none;
-  top: 200px;
+  top: 250px;
   align-items: center;
   text-align: center;
   justify-content: center;

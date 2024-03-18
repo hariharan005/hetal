@@ -5,6 +5,7 @@ import About from "../components/about";
 import Experience from "../components/experience";
 import Education from "../components/education";
 import Skills from "../components/skills";
+import Whatido from "../components/whatido";
 import Blogs from "../components/blogs";
 import Contact from "../components/contact";
 import Footer from "../components/footer";
@@ -62,9 +63,9 @@ const HomePage = () => {
             >
               Know More
             </Link>
-            <Link to="schedule" download="profile" className="dnw-button">
+            <a href="schedule" className="dnw-button">
               Schedule Counseling
-            </Link>
+            </a>
             <a href={Msme} download="profile" className="dnw-button">
               UDYAM-XX-00-0000000
             </a>
@@ -72,7 +73,7 @@ const HomePage = () => {
         </div>
       </section>
       <About id="about"></About>
-      {/* <Whatido></Whatido> */}
+      <Whatido></Whatido>
       <Skills></Skills>
       <Education></Education>
       <Experience></Experience>
