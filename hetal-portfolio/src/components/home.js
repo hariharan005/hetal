@@ -9,21 +9,21 @@ import Blogs from "../components/blogs";
 import Contact from "../components/contact";
 import Footer from "../components/footer";
 import profileImage from "../assets/2.jpg";
-import Msme from "../assets/msme.webp"
+import Msme from "../assets/msme.webp";
 //import { Link } from "react-router-dom";
 import { useEffect } from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const HomePage = () => {
   useEffect(() => {
     AOS.init({
-        offset: 100,
-        duration: 600,
-        easing: 'ease-in-sine',
-        delay: 100,
-        once: false,
+      offset: 100,
+      duration: 600,
+      easing: "ease-in-sine",
+      delay: 100,
+      once: false,
     });
   }, []);
 
@@ -53,26 +53,40 @@ const HomePage = () => {
             <img src={profileImage} alt="Profile" title="Hetal"></img>
           </div>
           <div className="buttons">
-            <Link to="about" smooth={true} duration={500} offset={-170} className="knw-button">
+            <Link
+              to="about"
+              smooth={true}
+              duration={500}
+              offset={-170}
+              className="knw-button"
+            >
               Know More
             </Link>
             <Link to="schedule" download="profile" className="dnw-button">
-            Schedule Counseling
+              Schedule Counseling
             </Link>
             <a href={Msme} download="profile" className="dnw-button">
-            UDYAM-XX-00-0000000
+              UDYAM-XX-00-0000000
             </a>
           </div>
         </div>
       </section>
-        <About id="about"></About>
-        {/* <Whatido></Whatido> */}
-        <Skills></Skills>
-        <Education></Education>
-        <Experience></Experience>
-        <Contact></Contact>
-        <Blogs></Blogs>
-        <Footer></Footer>
+      <About id="about"></About>
+      {/* <Whatido></Whatido> */}
+      <Skills></Skills>
+      <Education></Education>
+      <Experience></Experience>
+      <Contact></Contact>
+      <Blogs></Blogs>
+      <div className="bookschedule" data-aos="fade-up">
+        <div className="booklabel">
+          <p>Book a Schedule for Counseling. Im available on Monday, Wednesday and Sunday</p>
+        </div>
+        <div className="schedulelink">
+          <a href="schedule">Schedule</a>
+        </div>
+      </div>
+      <Footer></Footer>
     </>
   );
 };
