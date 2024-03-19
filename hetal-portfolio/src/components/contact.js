@@ -88,6 +88,7 @@ export default function Contact() {
                 value={formData.firstName}
                 onChange={handleChange}
                 required="required"
+                maxLength="15"
               />
             </div>
 
@@ -103,6 +104,7 @@ export default function Contact() {
                 value={formData.lastName}
                 onChange={handleChange}
                 required="required"
+                maxLength="10"
               />
             </div>
 
@@ -118,6 +120,7 @@ export default function Contact() {
                 value={formData.emailId}
                 onChange={handleChange}
                 required="required"
+                maxLength="100"
               />
             </div>
 
@@ -148,6 +151,7 @@ export default function Contact() {
                 value={formData.message}
                 onChange={handleChange}
                 required="required"
+                maxLength="500"
               ></textarea>
             </div>
 
