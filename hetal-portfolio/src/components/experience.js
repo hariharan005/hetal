@@ -28,12 +28,12 @@ export default function About() {
               borderRight: "2px solid #fc466b",
             }}
             contentArrowStyle={{ borderRight: "7px solid  #fc466b" }}
-            date="2011 - present"
+            date="2023 - present"
             iconStyle={{ background: "white", color: "#fc466b" }}
             icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">Junior Faculty</h3>
-            <h4 className="vertical-timeline-element-subtitle">GLIM</h4>
+            <h4 className="vertical-timeline-element-subtitle">Greatlakes Institute of Management</h4>
             <p>
               Creative Direction, User Experience, Visual Design, Project
               Management, Team Leading
@@ -47,12 +47,12 @@ export default function About() {
               borderTop: "2px solid #fc466b", borderLeft: "2px solid #fc466b",
             }}
             contentArrowStyle={{ borderRight: "7px solid  #fc466b" }}
-            date="2011 - present"
+            date="2022 - 2023"
             iconStyle={{ background: "white", color: "#fc466b" }}
             icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Junior Faculty</h3>
-            <h4 className="vertical-timeline-element-subtitle">GLIM</h4>
+            <h3 className="vertical-timeline-element-title">Deputy Manager - Research Center</h3>
+            <h4 className="vertical-timeline-element-subtitle">Greatlakes Institute of Management</h4>
             <p>
               Creative Direction, User Experience, Visual Design, Project
               Management, Team Leading
