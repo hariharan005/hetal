@@ -1,0 +1,19 @@
+.schedule{
+    position: absolute;
+    background-color: red;
+    height: 30rem;
+    width: 50rem;
+    border-radius: 10px;
+    font-size: 14px;
+}
+form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.widget{
+    position: absolute;
+    top: 100px;
+    width: 1800px;
+    height: 500px;
+}

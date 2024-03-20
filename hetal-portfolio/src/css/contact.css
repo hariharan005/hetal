@@ -120,12 +120,16 @@ sup{
 }
 
 button {
+  position: relative;
   font-size: 18px;
   text-decoration: none;
   color: black;
   border-radius: 10px;
   border: 2px solid grey;
   margin: 0px;
+  width: 100px;
+  left: 170px;
+  justify-content: center;
   padding: 4px 15px 2px 15px;
   background: linear-gradient(90deg, #e2ecf7 50%, #ffffff 100%);
   transition: all 0.5s ease;
