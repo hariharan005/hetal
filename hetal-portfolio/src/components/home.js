@@ -8,6 +8,7 @@ import Skills from "../components/skills";
 import Whatido from "../components/whatido";
 import Blogs from "../components/blogs";
 import Contact from "../components/contact";
+import Testimonials from "../components/testimonials";
 import Footer from "../components/footer";
 import profileImage from "../assets/2.jpg";
 import Msme from "../assets/msme.webp";
@@ -87,6 +88,7 @@ const HomePage = () => {
           <a href="schedule">Schedule</a>
         </div>
       </div>
+      <Testimonials></Testimonials>
       <Footer></Footer>
     </>
   );
