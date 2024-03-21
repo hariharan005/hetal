@@ -21,7 +21,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 const HomePage = () => {
   useEffect(() => {
     AOS.init({
-      offset: 100,
+      offset: 150,
       duration: 600,
       easing: "ease-in-sine",
       delay: 100,

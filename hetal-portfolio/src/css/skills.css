@@ -1,9 +1,9 @@
 .skills {
   position: relative;
-  top: 72px;
+  top: 85px;
   height: 1200px;
   width: 1400px;
-  background-color: violet;
+  /* background-color: violet; */
 }
 .title h3 {
   color: #e6017f;

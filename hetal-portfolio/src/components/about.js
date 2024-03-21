@@ -8,7 +8,7 @@ import "aos/dist/aos.css";
 export default function About() {
   useEffect(() => {
     AOS.init({
-      offset: 300,
+      offset: 400,
       duration: 600,
       easing: "ease-in-sine",
       delay: 1000,

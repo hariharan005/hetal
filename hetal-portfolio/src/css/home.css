@@ -125,6 +125,7 @@
   padding: 10px;
   background: linear-gradient(90deg, #e2ecf7 50%, #ffffff 100%);
   transition: all 0.5s ease;
+  cursor: pointer;
 }
 .dnw-button {
   cursor: pointer;

@@ -14,7 +14,7 @@ import React, { useEffect } from "react";
 export default function Whatido() {
   useEffect(() => {
     AOS.init({
-      offset: 300,
+      offset: 400,
       duration: 600,
       easing: "ease-in-sine",
       delay: 1000,

@@ -60,6 +60,7 @@ nav{
   border-radius: 4px;
 }
 .navlink:hover {
+  cursor: pointer;
   opacity: 1;
   transform: translateY(-0.25em);
   color: #fffaff;

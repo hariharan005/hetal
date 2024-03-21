@@ -34,13 +34,14 @@
     transform: translateY(-0.50em);
 }
 
-.containers img {
+.containers .user {
   position: relative;
   margin: 10px;
   height: 50px;
   width: 50px;
   border: 2px solid white;
   border-radius: 50%;
+  color: black;
 }
 .containers p {
   padding: 0px 20px 0px 20px;

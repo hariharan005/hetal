@@ -6,15 +6,27 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { FaBriefcase } from "react-icons/fa";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 //import { Link } from "react-router-dom";
 
 const WorkIcon = () => <FaBriefcase></FaBriefcase>;
 
-export default function About() {
+export default function Experience() {
+  useEffect(() => {
+    AOS.init({
+      offset: 300,
+      duration: 600,
+      easing: "ease-in-sine",
+      delay: 1000,
+      once: false,
+    });
+  }, []);
   return (
     <>
-      <section className="experience">
+      <section data-aos="fade-up" className="experience">
         <div className="title">
           <h3>Experience</h3>
         </div>

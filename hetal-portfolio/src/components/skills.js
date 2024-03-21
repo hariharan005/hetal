@@ -6,10 +6,22 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { FaCogs } from "react-icons/fa";
 //import { Link } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 
 const WorkIcon = () => <FaCogs></FaCogs>;
 
 export default function About() {
+  useEffect(() => {
+    AOS.init({
+      offset: 400,
+      duration: 600,
+      easing: "ease-in-sine",
+      delay: 1000,
+      once: false,
+    });
+  }, []);
   return (
     <>
       {/* <section className="skills">
@@ -37,7 +49,7 @@ export default function About() {
           <div>Program Management</div>
         </div>
       </section> */}
-      <section className="skills" id="skill">
+      <section data-aos="fade-up" className="skills" id="skill">
         <div className="title">
           <h3>Skill</h3>
         </div>
