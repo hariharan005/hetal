@@ -7,7 +7,6 @@ import "aos/dist/aos.css";
 export default function Education() {
   useEffect(() => {
     AOS.init({
-      offset: 200,
       duration: 600,
       easing: "ease-in-sine",
       delay: 1000,
@@ -16,7 +15,7 @@ export default function Education() {
   }, []);
   return (
     <>
-      <section className="education" id="education" data-aos="fade-up">
+      <section className="education" id="education">
         <h3>Education</h3>
         <div>
           <div className="horizontal"></div>

@@ -17,7 +17,6 @@ const WorkIcon = () => <FaBriefcase></FaBriefcase>;
 export default function Experience() {
   useEffect(() => {
     AOS.init({
-      offset: 300,
       duration: 600,
       easing: "ease-in-sine",
       delay: 1000,
@@ -26,7 +25,7 @@ export default function Experience() {
   }, []);
   return (
     <>
-      <section data-aos="fade-up" className="experience">
+      <section className="experience">
         <div className="title">
           <h3>Experience</h3>
         </div>

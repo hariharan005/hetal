@@ -8,7 +8,6 @@ import "aos/dist/aos.css";
 export default function About() {
   useEffect(() => {
     AOS.init({
-      offset: 400,
       duration: 600,
       easing: "ease-in-sine",
       delay: 1000,
@@ -17,8 +16,8 @@ export default function About() {
   }, []);
   return (
     <>
-      <section className="about" id="about" data-aos="fade-up">
-        <h3 data-aos="fade-up">About Me</h3>
+      <section className="about" id="about">
+        <h3>About Me</h3>
         <div className="bioabout1">
           <h1>20 Years Experience on</h1>
           <h2>Junior Faculty</h2>

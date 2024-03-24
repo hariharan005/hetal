@@ -15,7 +15,6 @@ const WorkIcon = () => <FaCogs></FaCogs>;
 export default function About() {
   useEffect(() => {
     AOS.init({
-      offset: 400,
       duration: 600,
       easing: "ease-in-sine",
       delay: 1000,
@@ -49,7 +48,7 @@ export default function About() {
           <div>Program Management</div>
         </div>
       </section> */}
-      <section data-aos="fade-up" className="skills" id="skill">
+      <section className="skills" id="skill">
         <div className="title">
           <h3>Skill</h3>
         </div>

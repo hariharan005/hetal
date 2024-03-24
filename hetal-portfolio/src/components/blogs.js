@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 export default function Blogs() {
   useEffect(() => {
     AOS.init({
-      offset: 200,
+      offset: 250,
       duration: 600,
       easing: "ease-in-sine",
       delay: 1000,
@@ -16,7 +16,7 @@ export default function Blogs() {
   }, []);
   return (
     <>
-      <section className="blogs" data-aos="fade-up">
+      <section className="blogs">
         <h3>Blogs</h3>
         <h1>My Latest Post</h1>
         <div class="container">

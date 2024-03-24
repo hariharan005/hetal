@@ -69,7 +69,7 @@ export default function Contact() {
   return (
     <>
       <ToastContainer />
-      <section className="contact" data-aos="fade-up">
+      <section className="contact">
         <div className="conlabel">
           <h5>Contact Me</h5>
           <h2>Get in Touch With Me</h2>

@@ -12,21 +12,38 @@
   align-items: center;
   /* background-color: red; */
 }
+
+.sidename{
+  opacity: 0.3;
+  top: 250px;
+  left: -20px;
+  position: absolute;
+  transform: rotate(-90deg);
+}
+.sidename h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 5em;
+  font-weight: bolder;
+  color: #E9F1F9;
+  text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px #F2F6FA;
+    line-height: 80%;
+}
 .bio {
   position: relative;
   font-family: "poppins", Helvetica, sans-serif;
   display: inline-block;
   margin: 0px;
   padding: 0px;
-  right: 100px;
+  right: 200px;
 }
 .bio h1 {
   position: relative;
   color: #000000;
-  font-size: 96px;
-  font-weight: bold;
+  font-size: 72px;
+  font-weight: bolder;
   float: left;
-  top: 100px;
+  top: 200px;
 }
 .bio h1 span {
   color: #e6017f;
@@ -34,11 +51,11 @@
 .bio h3 {
   position: relative;
   color: #000000;
-  font-size: 48px;
-  font-weight: bold;
+  font-size: 32px;
+  font-weight: bolder;
   float: left;
-  right: 515px;
-  top: 200px;
+  right: 388px;
+  top: 280px;
 }
 .bio article {
   position: absolute;
@@ -49,10 +66,9 @@
   font-family: "Georama", sans-serif;
   font-weight: 400;
   line-height: 30px;
-  top: 260px;
+  top: 330px;
   float: left;
-  left: 5px;
-  width: 60%;
+  left: 0px;
 }
 /* .profile-img{
   position: relative;
@@ -96,6 +112,19 @@
   position: relative;
   transform: scale(3);
 } */
+
+.prosocial{
+  position: relative;
+  background-color: #E9F1F9;
+  width: 300px;
+  left: 530px;
+}
+.prosocial .icon {
+  position: relative;
+  margin: 5px;
+  border-radius: 50%;
+  border: 2px solid #08203A;
+}
 .profile-img img {
   position: relative;
   border-radius: 16px;
@@ -104,7 +133,6 @@
   width: 25rem;
   top: 0px;
   left: 350px;
-  /* background-color: #e2ecf7; */
   object-fit: cover;
 }
 
@@ -117,24 +145,26 @@
   left: 360px;
 }
 .knw-button {
+  font-size: 18px;
   text-decoration: none;
   color: black;
   border-radius: 10px;
   border: 2px solid grey;
   margin: 10px;
-  padding: 10px;
+  padding: 5px;
   background: linear-gradient(90deg, #e2ecf7 50%, #ffffff 100%);
   transition: all 0.5s ease;
   cursor: pointer;
 }
 .dnw-button {
+  font-size: 18px;
   cursor: pointer;
   text-decoration: none;
   color: black;
   border: 2px solid grey;
   border-radius: 10px;
   margin: 10px;
-  padding: 10px;
+  padding: 5px;
   background: linear-gradient(90deg, #e2ecf7 50%, #ffffff 100%);
   transition: all 0.5s ease;
 }

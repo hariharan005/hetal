@@ -16,7 +16,7 @@ export default function Testimonials() {
   }, []);
   return (
     <>
-      <section data-aos="fade-up" className="testimonials">
+      <section className="testimonials">
         <h3>Testimonials</h3>
         <h1>What Clients Say</h1>
         <p>

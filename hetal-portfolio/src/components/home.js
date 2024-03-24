@@ -17,11 +17,11 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link, animateScroll as scroll } from "react-scroll";
+import { SocialIcon } from "react-social-icons";
 
 const HomePage = () => {
   useEffect(() => {
     AOS.init({
-      offset: 150,
       duration: 600,
       easing: "ease-in-sine",
       delay: 100,
@@ -37,8 +37,12 @@ const HomePage = () => {
   return (
     <>
       <Header />
-      <section data-aos="fade-in" id="home" className="profile-container">
+      <section id="home" className="profile-container">
         <div className="profile">
+          <div className="sidename">
+            <h1>Hetal K</h1>
+            <h1>Pandya</h1>
+          </div>
           <div className="bio">
             <h1>
               Hi I'm <span>Hetal</span>
@@ -52,6 +56,32 @@ const HomePage = () => {
             </article>
           </div>
           <div className="profile-img">
+            <div className="prosocial">
+              <SocialIcon
+                bgColor="#E9F1F9"
+                fgColor="#08203A"
+                className="icon"
+                url="https://facebook.com"
+                network="facebook"
+                target="_blank"
+              ></SocialIcon>
+              <SocialIcon
+                bgColor="#E9F1F9"
+                fgColor="#08203A"
+                className="icon"
+                url="https://facebook.com"
+                network="twitter"
+                target="_blank"
+              ></SocialIcon>
+              <SocialIcon
+                bgColor="#E9F1F9"
+                fgColor="#08203A"
+                className="icon"
+                url="https://facebook.com"
+                network="instagram"
+                target="_blank"
+              ></SocialIcon>
+            </div>
             <img src={profileImage} alt="Profile" title="Hetal"></img>
           </div>
           <div className="buttons">
@@ -80,9 +110,12 @@ const HomePage = () => {
       <Experience></Experience>
       <Contact></Contact>
       <Blogs></Blogs>
-      <div className="bookschedule" data-aos="fade-up">
+      <div className="bookschedule">
         <div className="booklabel">
-          <p>Book a Schedule for Counseling. Im available on Monday, Wednesday, and Sunday.</p>
+          <p>
+            Book a Schedule for Counseling. Im available on Monday, Wednesday,
+            and Sunday.
+          </p>
         </div>
         <div className="schedulelink">
           <a href="schedule">Schedule</a>

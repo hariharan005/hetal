@@ -14,7 +14,6 @@ import React, { useEffect } from "react";
 export default function Whatido() {
   useEffect(() => {
     AOS.init({
-      offset: 400,
       duration: 600,
       easing: "ease-in-sine",
       delay: 1000,
@@ -22,7 +21,7 @@ export default function Whatido() {
     });
   }, []);
   return (
-    <section className="whatido" data-aos="fade-up">
+    <section className="whatido">
       <div className="title">
         <h3>What I Do</h3>
       </div>
