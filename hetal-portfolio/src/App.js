@@ -1,5 +1,4 @@
 import "./App.css";
-import React, { useEffect } from "react";
 //import Loader from "./components/loader";
 import Home from "./components/home";
 import About from "./components/about";
@@ -15,13 +14,6 @@ import Whatido from "./components/whatido"
 import { Route, Routes } from "react-router-dom";
 
 function App() {
-  useEffect(() => {
-    // Set the title when the component mounts
-    document.title = "Home";
-  }, []);
-
-  
-
   return (
     <div className="App">
       <header className="App-header">

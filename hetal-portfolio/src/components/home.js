@@ -37,7 +37,7 @@ const HomePage = () => {
   return (
     <>
       <Header />
-      <section id="home" className="profile-container">
+      <section id="home" className="profile-container" data-aos="fade-up">
         <div className="profile">
           <div className="sidename">
             <h1>Hetal K</h1>
@@ -89,12 +89,12 @@ const HomePage = () => {
               to="about"
               smooth={true}
               duration={500}
-              offset={-170}
+              offset={-70}
               className="knw-button"
             >
               Know More
             </Link>
-            <a href="schedule" className="dnw-button">
+            <a href="schedule" className="dnw-button" target="_blank">
               Schedule Counseling
             </a>
             <a href={Msme} download="profile" className="dnw-button">

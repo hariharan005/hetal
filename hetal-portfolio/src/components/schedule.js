@@ -1,6 +1,13 @@
 import { InlineWidget } from "react-calendly";
+import { useEffect } from "react";
 import "../css/schedule.css";
+
+
 export default function About() {
+  useEffect(() => {
+    // Set the title when the component mounts
+    document.title = "Book a Counseling";
+  }, []);
   return (
     <>
       {/* <Header /> */}

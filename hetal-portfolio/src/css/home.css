@@ -16,13 +16,13 @@
 .sidename{
   opacity: 0.3;
   top: 250px;
-  left: -20px;
+  left: 100px;
   position: absolute;
   transform: rotate(-90deg);
 }
 .sidename h1{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 5em;
+  font-size: 4em;
   font-weight: bolder;
   color: #E9F1F9;
   text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
@@ -31,11 +31,12 @@
 }
 .bio {
   position: relative;
+  width: 550px;
+  height: 400px;
+  top: 150px;
+  left: 500px;
   font-family: "poppins", Helvetica, sans-serif;
-  display: inline-block;
-  margin: 0px;
-  padding: 0px;
-  right: 200px;
+  /* background-color: red; */
 }
 .bio h1 {
   position: relative;
@@ -43,7 +44,7 @@
   font-size: 72px;
   font-weight: bolder;
   float: left;
-  top: 200px;
+  top: 0px;
 }
 .bio h1 span {
   color: #e6017f;
@@ -54,8 +55,8 @@
   font-size: 32px;
   font-weight: bolder;
   float: left;
-  right: 388px;
-  top: 280px;
+  right: 0px;
+  top: 0px;
 }
 .bio article {
   position: absolute;
@@ -66,7 +67,7 @@
   font-family: "Georama", sans-serif;
   font-weight: 400;
   line-height: 30px;
-  top: 330px;
+  top: 150px;
   float: left;
   left: 0px;
 }
@@ -115,23 +116,30 @@
 
 .prosocial{
   position: relative;
-  background-color: #E9F1F9;
-  width: 300px;
-  left: 530px;
+  background: linear-gradient(115deg, rgba(226,236,247,1) 0%, rgba(255,255,255,1) 100%);
+  box-shadow: 0px 10px 20px 0px rgb(189, 189, 189);
+  width: 200px;
+  left: 1400px;
+  top: -330px;
+  transition: all 0.5s;
+}
+.prosocial:hover{
+  border-radius: 4px;
+  background: linear-gradient(45deg, rgba(252,70,107,1) 21%, rgba(103,13,176,1) 88%);
 }
 .prosocial .icon {
   position: relative;
   margin: 5px;
   border-radius: 50%;
-  border: 2px solid #08203A;
+  border: 1px solid #babec3;
 }
 .profile-img img {
   position: relative;
   border-radius: 16px;
   filter: drop-shadow(10px 10px 20px 0px #3c3939);
-  height: 30rem;
-  width: 25rem;
-  top: 0px;
+  height: 25rem;
+  width: 20rem;
+  top: -320px;
   left: 350px;
   object-fit: cover;
 }
@@ -141,8 +149,8 @@
   font-size: 18px;
   font-family: "Georama", sans-serif;
   width: 700px;
-  top: -40px;
-  left: 360px;
+  top: -350px;
+  left: 440px;
 }
 .knw-button {
   font-size: 18px;
