@@ -166,8 +166,7 @@ export default function Contact() {
               <label>+91&nbsp;9677723567</label>
             </div>
             <div className="faicon">
-              <FaEnvelope></FaEnvelope>
-              <label>hetalpanday@gmail.com</label>
+              
             </div>
             <div className="faicon">
               <FaEnvelope></FaEnvelope>

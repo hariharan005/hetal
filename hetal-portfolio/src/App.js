@@ -9,7 +9,7 @@ import Blogs from "./components/blogs";
 import Contact from "./components/contact"
 import Schedule from "./components/schedule"
 import Testapi from "./components/testapi"
-import Timeline from "./components/verticaltimeline"
+import Feedbacks from "./components/feedback"
 import Whatido from "./components/whatido"
 import { Route, Routes } from "react-router-dom";
 
@@ -27,7 +27,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="schedule" element={<Schedule />} />
           <Route path="testapi" element={<Testapi />} />
-          <Route path="timeline" element={<Timeline />} />
+          <Route path="feedback" element={<Feedbacks />} />
           <Route path="whatido" element={<Whatido />} />
         </Routes>
       </header>

@@ -19,8 +19,7 @@ export default function About() {
       <section className="about" id="about">
         <h3>About Me</h3>
         <div className="bioabout1">
-          <h1>20 Years Experience on</h1>
-          <h2>Junior Faculty</h2>
+          <h1>20 Years Experience</h1>
           <article>
             <p>
               With dedicated service of 20 years in the education sector, I have

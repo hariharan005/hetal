@@ -2,14 +2,13 @@ import React from "react";
 import "../css/home.css";
 import Header from "../components/header";
 import About from "../components/about";
-import Experience from "../components/experience";
 import Education from "../components/education";
-import Skills from "../components/skills";
 import Whatido from "../components/whatido";
 import Blogs from "../components/blogs";
 import Contact from "../components/contact";
 import Testimonials from "../components/testimonials";
 import Footer from "../components/footer";
+import Landingpage from "../components/landingpage";
 import profileImage from "../assets/2.jpg";
 import Msme from "../assets/msme.webp";
 //import { Link } from "react-router-dom";
@@ -37,17 +36,15 @@ const HomePage = () => {
   return (
     <>
       <Header />
+      <Landingpage />
       <section id="home" className="profile-container" data-aos="fade-up">
         <div className="profile">
-          <div className="sidename">
-            <h1>Hetal K</h1>
-            <h1>Pandya</h1>
+          <div className="backname">
+            <h1>Psychology</h1>
           </div>
           <div className="bio">
-            <h1>
-              Hi I'm <span>Hetal</span>
-            </h1>
-            <h3>Psycologist</h3>
+            <h1>Hi</h1>
+            <h2>Hetal - Counseller Therapist</h2>
             <article>
               Experienced psychologist specializing in counseling for students
               and working professionals. Accomplished junior faculty member with
@@ -105,20 +102,20 @@ const HomePage = () => {
       </section>
       <About id="about"></About>
       <Whatido></Whatido>
-      <Skills></Skills>
       <Education></Education>
-      <Experience></Experience>
       <Contact></Contact>
       <Blogs></Blogs>
       <div className="bookschedule">
         <div className="booklabel">
           <p>
             Book a Schedule for Counseling. Im available on Monday, Wednesday,
-            and Sunday.
+            Friday, Saturday and Sunday.
           </p>
         </div>
         <div className="schedulelink">
-          <a href="schedule">Schedule</a>
+          <a href="schedule" target="_blank">
+            Schedule
+          </a>
         </div>
       </div>
       <Testimonials></Testimonials>

@@ -33,7 +33,7 @@ export default function Testimonials() {
               throughout the session. I appreciate your patience and kindness in
               addressing my concerns, even when they seemed trivial.
             </p>
-            <h5>Pavithra</h5>
+            <h5>Pav***</h5>
             <h6>Content Strategist</h6>
           </div>
           <div className="containers">

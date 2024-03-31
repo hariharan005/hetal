@@ -15,9 +15,10 @@
   float: left;
   border-radius: 50%;
   transform: scaleX(-1); /* rotate the logo horizontally*/
+  border: 2px solid #654c4f;
 }
 .logo:hover {
-  border: 3px solid #e6017f;
+  background-color: #654c4f;
   transition: 0.2s all;
 }
 .logo-text {
@@ -32,7 +33,7 @@
   font-weight: 600;
 }
 .logo-text:hover {
-  background: linear-gradient(to right, #e6017f 0%, #670db0 100%);
+  background: linear-gradient(to right, #654c4f 0%, #654c4f 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   transition: 0.3s all;
@@ -64,7 +65,7 @@ nav{
   opacity: 1;
   transform: translateY(-0.25em);
   color: #fffaff;
-  box-shadow: inset 0 -3.25em 0 0 #e6017f; /* fills the color inside*/
+  box-shadow: inset 0 -3.25em 0 0 #654c4f; /* fills the color inside*/
   /* background: linear-gradient(90deg, rgba(230,1,127,1) 0%, rgba(103,13,176,1) 100%); */
 }
 

@@ -7,33 +7,21 @@ export default function About() {
         <div className="footerdetails-links">
           <ul>
             <li>
-              <a href="https://facebook.com">Company</a>
               <a href="https://facebook.com">Services</a>
-              <a href="https://facebook.com">Resources</a>
               <a href="https://facebook.com">Privacy Policy</a>
             </li>
           </ul>
         </div>
         <div className="socialicon">
           <h3>Connect with Me</h3>
+          
           <SocialIcon
             className="icon"
-            url="https://facebook.com"
-            network="facebook"
-            target="_blank"
-          ></SocialIcon>
-          <SocialIcon
-            className="icon"
-            url="https://instagram.com"
+            url="https://www.instagram.com/@crypto_grapper_/"
             network="instagram"
             target="_blank"
           ></SocialIcon>
-          <SocialIcon
-            className="icon"
-            url="https://twitter.com"
-            network="twitter"
-            target="_blank"
-          ></SocialIcon>
+        
           <SocialIcon
             className="icon"
             url="https://mail.google.com"

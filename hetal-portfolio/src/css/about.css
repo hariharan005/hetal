@@ -6,7 +6,7 @@
   /* background-color: green; */
 }
 .about h3 {
-  color: #e6017f;
+  color: white;
 }
 .profile1 {
   position: relative;
@@ -14,8 +14,8 @@
   width: 526px;
   top: -340px;
   left: 100px;
-  background: linear-gradient(128.07deg, #e2ecf7 36.88%, #ffffff 64%);
-  box-shadow: -10px -50px 80px #ffffff;
+  /* background: linear-gradient(128.07deg, #e2ecf7 36.88%, #ffffff 64%);
+  box-shadow: -10px -50px 80px #ffffff; */
   border-radius: 5px;
 }
 .profile1 img {
@@ -81,12 +81,9 @@
 .bioabout1 h1 {
   color: black;
 }
-.bioabout1 h2 {
-  color: #e6017f;
-}
 article p {
-  color: #8797a8;
-  font-size: 18px;
+  color: black;
+  font-size: 22px;
   text-align: justify;
-  font-family: "georama", sans-serif;
+  
 }
