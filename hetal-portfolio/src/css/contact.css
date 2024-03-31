@@ -1,6 +1,6 @@
 .contact {
   position: relative;
-  top: 100px;
+  top: 150px;
   height: 800px;
   width: 1400px;
   /* background-color: red; */
@@ -14,15 +14,15 @@
   right: 15rem;
 }
 .conlabel h5 {
-  color: #e6017f;
+  color: white;
 }
 .conlabel h2 {
-  color: #08203a;
+  color: white;
 }
 .formdiv {
   position: relative;
   background: linear-gradient(132.22deg, #e2ecf7 15.54%, #ffffff 97.17%);
-  filter: drop-shadow(10px 10px 60px #9ca8ba);
+  /* filter: drop-shadow(10px 10px 60px #9ca8ba); */
   height: 500px;
   width: 450px;
   border-radius: 20px;
@@ -31,7 +31,7 @@
 .contactdiv {
   position: relative;
   background: linear-gradient(132.22deg, #e2ecf7 15.54%, #ffffff 97.17%);
-  filter: drop-shadow(10px 10px 60px #9ca8ba);
+  /* filter: drop-shadow(10px 10px 60px #9ca8ba); */
   height: 500px;
   width: 450px;
   border-radius: 20px;
@@ -82,6 +82,16 @@
   text-align: justify;
   left: 100px;
   top: -40px;
+}
+.contactdiv .contactme .faicon a{
+  font-size: 18px;
+  position: relative;
+  justify-content: right;
+  text-align: justify;
+  left: 100px;
+  top: -40px;
+  color: #08203a;
+  text-decoration: none;
 }
 
 .form-group{

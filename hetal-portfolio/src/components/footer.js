@@ -20,6 +20,8 @@ export default function About() {
             url="https://www.instagram.com/@crypto_grapper_/"
             network="instagram"
             target="_blank"
+            fgColor="white"
+            bgColor="#654c4f"
           ></SocialIcon>
         
           <SocialIcon
@@ -27,6 +29,8 @@ export default function About() {
             url="https://mail.google.com"
             network="email"
             target="_blank"
+            fgColor="white"
+            bgColor="#654c4f"
           ></SocialIcon>
         </div>
         <div className="horizontal"></div>

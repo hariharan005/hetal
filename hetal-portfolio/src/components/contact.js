@@ -6,7 +6,7 @@ import Contactpic from "../assets/contact.jpg";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { FaPhone, FaEnvelope } from "react-icons/fa";
+import { FaPhone, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 
 export default function Contact() {
   useEffect(() => {
@@ -166,7 +166,19 @@ export default function Contact() {
               <label>+91&nbsp;9677723567</label>
             </div>
             <div className="faicon">
-              
+              <FaWhatsapp></FaWhatsapp>
+              <a
+                data-action="open"
+                data-phone="919677723567"
+                data-message=""
+                role="button"
+                tabindex="0"
+                target="_blank"
+                rel="noreferrer"
+                href="https://web.whatsapp.com/send?phone=919677723567&amp;text="
+              >
+                Chat&nbsp;via&nbsp;whatsapp
+              </a>
             </div>
             <div className="faicon">
               <FaEnvelope></FaEnvelope>

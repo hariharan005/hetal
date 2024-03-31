@@ -6,10 +6,10 @@
   /* background-color: green; */
 }
 .blogs h3{
-    color: #E6017F;
+    color: white;
 }
 .blogs h1{
-    color: #08203A;
+    color: black;
 }
 .column {
   flex: 33.33%;
@@ -18,8 +18,8 @@
   border-radius: 10px;
   padding: 10px;
   margin: 20px;
-  background: linear-gradient(132.22deg, #e2ecf7 15.54%, #ffffff 97.17%);
-  filter: drop-shadow(10px 10px 60px #9ca8ba);
+  background: linear-gradient(132.22deg, #654c4f 15.54%, rgba(0, 0, 0, 0.296) 97.17%);
+  /* filter: drop-shadow(10px 10px 60px #9ca8ba); */
   text-align: center;
   transition: all 0.5s ease;
 }

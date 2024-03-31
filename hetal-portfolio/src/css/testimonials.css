@@ -7,13 +7,13 @@
   font-size: 14px;
 }
 .testimonials h3{
-    color: #E6017F;
+    color: white;
 }
 .testimonials h1{
-    color: #08203A;
+    color: black;
 }
 .testimonials p{
-    color: #08203A;
+    color: white;
 }
 .container-column {
   display: grid;
@@ -22,8 +22,8 @@
   margin: 20px;
 }
 .containers {
-  background: linear-gradient(132.22deg, #e2ecf7 15.54%, #ffffff 97.17%);
-  filter: drop-shadow(10px 10px 60px #9ca8ba);
+  background: linear-gradient(132.22deg, #654c4f 15.54%, rgba(0, 0, 0, 0.296) 97.17%);
+  /* filter: drop-shadow(10px 10px 60px #9ca8ba); */
   padding: auto;
   height: 250px;
   box-sizing: border-box;
@@ -48,9 +48,9 @@
   text-align: justify;
 }
 .containers h5{
-    color: #08203A;
+    color: black;
 }
 .containers h6{
-    color: #E6017F;
+    color: white;
 }
 

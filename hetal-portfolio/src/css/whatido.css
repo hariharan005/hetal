@@ -1,9 +1,8 @@
 .whatido {
   position: relative;
-  top: 80px;
-  height: 800px;
-  width: 1400px;
-  /* background-color: red; */
+  top: 150px;
+  height: 700px;
+  width: 100%;
 }
 
 #app {
@@ -29,7 +28,7 @@ body {
   position: relative;
   top: 0px;
   height: 650px;
-  width: 1400px;
+  width: 400px;
 }
 
 .swiper-slide {
@@ -68,6 +67,6 @@ body {
   text-align: center;
   padding: 10px;
 }
-.title h3 {
+.whatido .title h3 {
   color: white;
 }

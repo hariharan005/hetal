@@ -2,7 +2,7 @@
   position: relative;
   top: 500px;
   width: 100%;
-  height: 600px;
+  height:600px;
   background: white;
 }
 
@@ -28,7 +28,7 @@
   top: 30px;
 }
 .socialicon h3 {
-  color: #e6017f;
+  color: black;
 }
 .socialicon .icon {
   padding: 10px;
