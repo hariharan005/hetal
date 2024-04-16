@@ -14,15 +14,15 @@
   right: 15rem;
 }
 .conlabel h5 {
-  color: white;
+  color: #654c4f;
 }
 .conlabel h2 {
-  color: white;
+  color: black;
 }
 .formdiv {
   position: relative;
   background: linear-gradient(132.22deg, #e2ecf7 15.54%, #ffffff 97.17%);
-  /* filter: drop-shadow(10px 10px 60px #9ca8ba); */
+  filter: drop-shadow(10px 10px 60px #9ca8ba);
   height: 500px;
   width: 450px;
   border-radius: 20px;
@@ -31,7 +31,7 @@
 .contactdiv {
   position: relative;
   background: linear-gradient(132.22deg, #e2ecf7 15.54%, #ffffff 97.17%);
-  /* filter: drop-shadow(10px 10px 60px #9ca8ba); */
+  filter: drop-shadow(10px 10px 60px #9ca8ba);
   height: 500px;
   width: 450px;
   border-radius: 20px;

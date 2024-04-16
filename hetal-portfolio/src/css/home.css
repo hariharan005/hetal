@@ -29,7 +29,7 @@
 }
 .bio h1 {
   position: relative;
-  color: white;
+  color: black;
   font-size: 72px;
   font-weight: bolder;
   float: left;
@@ -37,9 +37,8 @@
   left: 0px;
 }
 .bio h2 {
-  color: black;
   position: relative;
-  color: white;
+  color: black;
   font-size: 42px;
   font-weight: bolder;
   top: 80px;
@@ -47,7 +46,7 @@
 }
 .bio article {
   position: absolute;
-  color: white;
+  color: #8797a8;
   justify-content: left;
   text-align: left;
   font-size: 20px;
@@ -147,8 +146,8 @@
   white-space: nowrap;
   overflow: hidden;
   box-sizing: border-box;
-  box-shadow: 0 1px 6px white;
-  color: white;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.482);
+  color: #654c4f;
 }
 .booklabel p{
   display: table-row;
@@ -177,7 +176,7 @@
 }
 .bookschedule a:hover{
   color: white;
-  background: transparent;
+  background: #654c4f;
 }
 
 @media only screen and (max-width: 768px) {

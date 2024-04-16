@@ -8,7 +8,7 @@
 .education h3 {
   position: relative;
   top: 50px;
-  color: white;
+  color: #654c4f;
 }
 .education div .year {
   position: relative;
@@ -25,7 +25,7 @@
   font-size: 14px;
   line-height: 36px;
   letter-spacing: 0.02em;
-  color: #654c4f;
+  color: black;
   right: 20rem;
   bottom: 22rem;
 }
@@ -36,7 +36,7 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
-  color: white;
+  color: black;
   width: 350px;
   height: 36px;
   left: 457px;
@@ -49,7 +49,7 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
-  color: white;
+  color: black;
   width: 350px;
   height: 30px;
   left: 431px;
@@ -58,7 +58,7 @@
 
 .eduscope{
   position: relative;
-  color: white;
+  color: #8797a8;
   /* background-color: red; */
   font-size: 18px;
   text-align: justify;

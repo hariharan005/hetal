@@ -52,7 +52,7 @@ export default function Landingpage() {
       </div>
       <h1>Your health is our priority</h1>
       <div className="button">
-        <a href="schedule">Book now get a discounts</a>
+        <a href="schedule" target="_blank">Book now get a discounts</a>
         <a href="#about">Know More</a>
       </div>
     </div>

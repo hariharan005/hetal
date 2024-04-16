@@ -1,42 +1,56 @@
-import { useRef, useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import React from "react";
+import { Container, Navbar, Offcanvas, Image } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import logoImage from '../assets/logo.png'
 import "../css/header.css";
+//import { Link } from "react-router-dom";
+import { useEffect } from "react";
+import { Link, animateScroll as scroll } from 'react-scroll';
 
-function Header() {
-  const navRef = useRef();
-  const [showDropdown, setShowDropdown] = useState(false);
-
-  const toggleDropdown = () => {
-    setShowDropdown(!showDropdown);
-  };
+function OffcanvasExample() {
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    scroll.scrollToTop();
+  }, []);
 
   return (
-    <header>
-      <h3>LOGO</h3>
-      <nav ref={navRef}>
-        <a href="/#">Home</a>
-        <a href="/#">About</a>
-        <a href="/#" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
-          Counseling
-          {showDropdown && (
-            <ul className="dropdown">
-              <li><a href="/#">Option 1</a></li>
-              <li><a href="/#">Option 2</a></li>
-              <li><a href="/#">Option 3</a></li>
-            </ul>
-          )}
-        </a>
-        <a href="/#">Blog</a>
-        <a href="/#">Feedback</a>
-        <button className="nav-btn nav-close-btn" onClick={toggleDropdown}>
-          <FaTimes />
-        </button>
-      </nav>
-      <button className="nav-btn" id="ham" onClick={toggleDropdown}>
-        <FaBars />
-      </button>
-    </header>
+    <Navbar expand="lg" fixed="top" fg="red" className="navbar">
+      <Container fluid>
+        <Navbar.Brand href="#">
+          <Image
+            className="logo"
+            src={logoImage}
+            alt="Logo"
+            width="50px"
+            height="50px"
+            roundedCircle
+          />
+          <h1 className="logo-text m-0 ms-2">Hetal K.Pandya</h1>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="offcanvasNavbar" />
+        <Navbar.Offcanvas
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+          placement="end"
+        >
+          <Offcanvas.Header closeButton>
+            <Offcanvas.Title id="offcanvasNavbarLabel">
+            </Offcanvas.Title>
+          </Offcanvas.Header>
+          <Offcanvas.Body>
+            <nav className="justify-content-end flex-grow-1 pe-3">
+              <Link className="navlink" to="landing" smooth={true} offset={-170} duration={500}>Home</Link>
+              <Link className="navlink" to="about" smooth={true} offset={-170} duration={500}>About</Link>
+              <Link className="navlink" to="schedule" smooth={true} offset={-170} duration={500}>Counseling</Link>
+              <Link className="navlink" to="contact" smooth={true} offset={-170} duration={500}>Contact</Link>
+              <Link className="navlink" to="blogs" smooth={true} offset={-170} duration={500}>Blogs</Link>
+              <a className="navlink" href="feedback" target="_blamk">Feedback</a>
+            </nav>
+          </Offcanvas.Body>
+        </Navbar.Offcanvas>
+      </Container>
+    </Navbar>
   );
 }
 
-export default Header;
+export default OffcanvasExample;
