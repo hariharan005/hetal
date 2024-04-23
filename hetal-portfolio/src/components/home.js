@@ -44,7 +44,7 @@ const HomePage = () => {
           </div>
           <div className="bio">
             <h1>Hi</h1>
-            <h2>Hetal - Counseller Therapist</h2>
+            <h2>Hetal - Counseler Therapist</h2>
             <article>
               Experienced psychologist specializing in counseling for students
               and working professionals. Accomplished junior faculty member with
@@ -74,7 +74,7 @@ const HomePage = () => {
                 bgColor="#E9F1F9"
                 fgColor="#08203A"
                 className="icon"
-                url="https://facebook.com"
+                url="https://www.instagram.com/crypto_grapper_/"
                 network="instagram"
                 target="_blank"
               ></SocialIcon>

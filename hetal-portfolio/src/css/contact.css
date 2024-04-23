@@ -148,7 +148,7 @@ button {
 button:hover{
   border: 2px solid transparent;
   color: white;
-  background: linear-gradient(45deg, #e6017f 0%, #670db0 100%);
+  background: #654c4f;
   /* box-shadow: inset 0 0 12px 12px white, inset 0 0 3px 2px white;
   background: linear-gradient(to right, #e6017f, #670db0); */
 }

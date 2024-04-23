@@ -175,7 +175,8 @@ export default function Contact() {
                 tabindex="0"
                 target="_blank"
                 rel="noreferrer"
-                href="https://web.whatsapp.com/send?phone=919677723567&amp;text="
+                href="https://wa.me/919677723567?text=I'm%20interested%20in%20your%20car%20for%20sale"
+                
               >
                 Chat&nbsp;via&nbsp;whatsapp
               </a>

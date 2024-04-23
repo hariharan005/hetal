@@ -6,17 +6,20 @@
   height: 750px;
   width: 100%;
   /* background-color: red; */
+
 }
 
-.mySwiper{
-    position: relative;
-    width: 1800px;
-    /* background-color: red; */
+.mySwiper {
+  position: relative;
+  width: 1800px;
+  /* background-color: red; */
 }
-.landingpage .landingimg .slideitem img{
-    position: relative;
-    object-fit: cover;
+
+.landingpage .landingimg .slideitem img {
+  position: relative;
+  object-fit: cover;
 }
+
 .landingpage svg {
   position: relative;
   top: -310px;
@@ -25,27 +28,25 @@
 }
 
 .wave-container {
-    width: 100%;
-    height: auto;
-  }
-  
-  .wave-path {
-    fill: #654c4f;
-    fill-opacity: 1;
-    animation: wave 7s infinite alternate;
-  }
-  
-  @keyframes wave {
-    0% {
-      d: path("M0,128L60,112C120,96,240,64,360,74.7C480,85,600,139,720,138.7C840,139,960,85,1080,80C1200,75,1320,117,1380,138.7L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z");
-    }
-    100% {
-      d: path("M0,128L60,144C120,160,240,192,360,186.7C480,181,600,139,720,128C840,117,960,139,1080,128C1200,117,1320,75,1380,53.3L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z");
-    }
-  }
-  
+  width: 100%;
+  height: auto;
+}
 
+.wave-path {
+  fill: #654c4f;
+  fill-opacity: 1;
+  animation: wave 7s infinite alternate;
+}
 
+@keyframes wave {
+  0% {
+    d: path("M0,128L60,112C120,96,240,64,360,74.7C480,85,600,139,720,138.7C840,139,960,85,1080,80C1200,75,1320,117,1380,138.7L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z");
+  }
+
+  100% {
+    d: path("M0,128L60,144C120,160,240,192,360,186.7C480,181,600,139,720,128C840,117,960,139,1080,128C1200,117,1320,75,1380,53.3L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z");
+  }
+}
 
 .landingpage h1 {
   position: relative;
@@ -60,25 +61,136 @@
   font-style: normal;
   z-index: 1;
 }
-
-.landingpage .button{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    gap: 10px;
-    width: 20%;
-    left: 650px;
+/* 
+.landingpage .button {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 10px;
+  width: 20%;
+  left: 650px;
 }
-.landingpage a{
-    font-size: 18px;
+
+.landingpage a {
+  font-size: 18px;
+  position: relative;
+  bottom: 490px;
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  text-align: center;
+  z-index: 1;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+} */
+
+
+
+@media only screen and (max-width: 768px) {
+
+  /* Mobile screen code */
+  .landingpage {
+    background-color: red;
     position: relative;
-    bottom: 490px;
-    color: black;
-    text-decoration: none;
-    background-color: white;
-    text-align: center;
+    top: 70px;
+    height: 700px;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  .mySwiper {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    /* background-color: red; */
+  }
+
+  .wave-container {
+    width: 200px;
+    height: auto;
+  }
+
+  .landingpage svg {
+    position: relative;
+    top: -310px;
+    height: 400px;
     z-index: 1;
-    padding: 5px 20px 5px 20px;
-    border-radius: 5px;
+  }
+
+  .wave-path {
+    fill: #654c4f;
+    fill-opacity: 1;
+    animation: wave 7s infinite alternate;
+  }
+
+  @keyframes wave {
+    0% {
+      d: path("M0,128L60,112C120,96,240,64,360,74.7C480,85,600,139,720,138.7C840,139,960,85,1080,80C1200,75,1320,117,1380,138.7L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z");
+    }
+
+    100% {
+      d: path("M0,128L60,144C120,160,240,192,360,186.7C480,181,600,139,720,128C840,117,960,139,1080,128C1200,117,1320,75,1380,53.3L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z");
+    }
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1023px) {}
+
+@media only screen and (min-width: 1024px) {
+
+  /* Mobile screen code */
+  .landingpage {
+    background-color: red;
+    position: relative;
+    top: 70px;
+    height: 580px;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  .mySwiper {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    /* background-color: red; */
+  }
+
+  .wave-container {
+    width: 200px;
+    height: auto;
+  }
+
+  .landingpage svg {
+    position: relative;
+    top: -450px;
+    height: 500px;
+    z-index: 1;
+  }
+
+  .wave-path {
+    fill: #654c4f;
+    fill-opacity: 1;
+    animation: wave 7s infinite alternate;
+  }
+
+  @keyframes wave {
+    0% {
+      d: path("M0,128L60,112C120,96,240,64,360,74.7C480,85,600,139,720,138.7C840,139,960,85,1080,80C1200,75,1320,117,1380,138.7L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z");
+    }
+
+    100% {
+      d: path("M0,128L60,144C120,160,240,192,360,186.7C480,181,600,139,720,128C840,117,960,139,1080,128C1200,117,1320,75,1380,53.3L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z");
+    }
+  }
+
+  .landingpage h1 {
+    position: relative;
+    bottom: 700px;
+  }
+
 }

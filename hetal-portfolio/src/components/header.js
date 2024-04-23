@@ -25,7 +25,7 @@ function OffcanvasExample() {
             height="50px"
             roundedCircle
           />
-          <h1 className="logo-text m-0 ms-2">Hetal K.Pandya</h1>
+          <h1 className="logo-text m-0 ms-2">HKP Mindcare</h1>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="offcanvasNavbar" />
         <Navbar.Offcanvas
