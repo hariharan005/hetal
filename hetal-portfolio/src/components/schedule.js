@@ -30,7 +30,7 @@ export default function About() {
       </div> */}
       <div className="widget">
         <InlineWidget
-          url="https://calendly.com/counseling-schedule"
+          url="https://calendly.com/schedulecounseling"
           text="Click here to schedule!"
         />
       </div>
