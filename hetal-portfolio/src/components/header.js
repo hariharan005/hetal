@@ -86,6 +86,9 @@ function OffcanvasExample() {
               <a className="navlink" href="feedback" target="_blamk">
                 Feedback
               </a>
+              <a className="navlink" href="payment" target="_blamk">
+                Payment
+              </a>
             </nav>
             <div className="counseling-dropdown">
               <ul>

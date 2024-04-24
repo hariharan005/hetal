@@ -1,0 +1,15 @@
+.payment-container {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    background: linear-gradient(132deg, rgba(255, 255, 255, 1) 0%, rgba(226, 236, 247, 1) 29%);
+    filter: drop-shadow(10px 10px 60px #9ca8ba);
+    top: 30px;
+    border-radius: 7px;
+}
+.payment-container img{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    object-fit: fill;
+}
