@@ -40,7 +40,7 @@ function OffcanvasExample() {
             <nav className="justify-content-end flex-grow-1 pe-3">
               <a
                 className="navlink"
-                to="landing"
+                href="/"
                 smooth={true}
                 offset={-170}
                 duration={500}
@@ -49,7 +49,7 @@ function OffcanvasExample() {
               </a>
               <a
                 className="navlink"
-                to="about"
+                href="about"
                 smooth={true}
                 offset={-170}
                 duration={500}
@@ -58,7 +58,7 @@ function OffcanvasExample() {
               </a>
               <a
                 className="navlink testd"
-                to="schedule"
+                href="schedule"
                 smooth={true}
                 offset={-170}
                 duration={500}
@@ -67,7 +67,7 @@ function OffcanvasExample() {
               </a>
               <a
                 className="navlink"
-                to="contact"
+                href="contact"
                 smooth={true}
                 offset={-170}
                 duration={500}
@@ -76,7 +76,7 @@ function OffcanvasExample() {
               </a>
               <a
                 className="navlink"
-                to="blogs"
+                href="blogs"
                 smooth={true}
                 offset={-170}
                 duration={500}
