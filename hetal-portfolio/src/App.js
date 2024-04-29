@@ -12,6 +12,7 @@ import Testapi from "./components/testapi"
 import Feedbacks from "./components/feedback"
 import Payment from "./components/payment";
 import Whatido from "./components/whatido"
+import Sidebar from "./components/sidebar"
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           <Route path="feedback" element={<Feedbacks />} />
           <Route path="payment" element={<Payment />} />
           <Route path="whatido" element={<Whatido />} />
+          <Route path="sidebar" element={<Sidebar />} />
         </Routes>
       </header>
     </div>
